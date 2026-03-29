@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+
+    <!-- Frame: Run Planner - Filled Out (402x874) -->
+
+    <!-- FRAME: Frame 65 -->
+    <LinearLayout
+        android:id="@+id/frame_65"
+        android:orientation="vertical"
+        android:layout_width="402dp"
+        android:layout_height="874dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingLeft="24dp"
+        android:paddingTop="24dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="24dp">
+
+        <!-- FRAME: Frame 62 -->
+        <LinearLayout
+            android:id="@+id/frame_62"
+            android:orientation="vertical"
+        android:layout_width="354dp"
+        android:layout_height="45dp">
+
+            <!-- FRAME: Frame 61 -->
+            <LinearLayout
+                android:id="@+id/frame_61"
+                android:orientation="vertical"
+        android:layout_width="354dp"
+        android:layout_height="45dp">
+
+                <!-- TEXT: Plan -->
+                <TextView
+                    android:id="@+id/plan"
+                    android:text="Plan"
+                    android:textSize="24sp"
+                    android:textColor="#FF000000"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="354dp"
+        android:layout_height="25dp" />
+
+                <!-- LINE: Line 1 -->
+                <View
+                    android:id="@+id/line_1"
+        android:layout_width="354dp"
+        android:layout_height="0dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- TEXT: Weekly Run Planner -->
+        <TextView
+            android:id="@+id/weekly_run_planner"
+            android:text="Weekly Run Planner"
+            android:textSize="18sp"
+            android:textColor="#FF222222"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:fontFamily="DM Sans"
+        android:layout_width="369dp"
+        android:layout_height="20dp" />
+
+        <!-- FRAME: SneakerMove -->
+        <LinearLayout
+            android:id="@+id/sneakermove"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+            android:background="#FFFFFFFF" />
+
+        <!-- GROUP: Group 20 -->
+        <View
+            android:id="@+id/group_20"
+        android:layout_width="365dp"
+        android:layout_height="323dp" />
+
+        <!-- TEXT: Upcoming Week (March 9-15) Easy Runs: 1 Tempo Runs: 1 Races Planned: 0 Long Runs Planned: 0 Relative Load (vs previous week): +43 Training Intensity (vs previous week): +15 -->
+        <TextView
+            android:id="@+id/upcoming_week__march_9_15__easy_runs__1_tempo_runs__1_races_planned__0_long_runs_planned__0_relative_load__vs_previous_week____43_training_intensity__vs_previous_week____15"
+            android:text="Upcoming Week (March 9-15)
+
+Easy Runs: 1
+Tempo Runs: 1 
+Races Planned: 0
+Long Runs Planned: 0
+
+
+Relative Load (vs previous week): +43
+
+Training Intensity (vs previous week): +15"
+            android:textSize="16sp"
+            android:gravity="start"
+        android:layout_width="318dp"
+        android:layout_height="327dp" />
+
+        <!-- FRAME: Frame 63 -->
+        <LinearLayout
+            android:id="@+id/frame_63"
+            android:orientation="horizontal"
+        android:layout_width="350dp"
+        android:layout_height="24dp">
+
+            <!-- VECTOR: Vector -->
+            <ImageView
+                android:id="@+id/vector"
+                android:src="@drawable/ic_vector"
+                android:scaleType="fitXY"
+        android:layout_width="21dp"
+        android:layout_height="22dp" />
+
+            <!-- FRAME: CalendarDots -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/calendardots"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+                android:background="#FFFFFFFF">
+
+                <!-- VECTOR: Vector -->
+                <ImageView
+                    android:id="@+id/vector"
+                    android:src="@drawable/ic_vector"
+                    android:scaleType="fitXY"
+        android:layout_width="21dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- VECTOR: Vector -->
+            <ImageView
+                android:id="@+id/vector"
+                android:src="@drawable/ic_vector"
+                android:scaleType="fitXY"
+        android:layout_width="19dp"
+        android:layout_height="19dp" />
+
+            <!-- VECTOR: Vector -->
+            <ImageView
+                android:id="@+id/vector"
+                android:src="@drawable/ic_vector"
+                android:scaleType="fitXY"
+        android:layout_width="25dp"
+        android:layout_height="18dp" />
+
+            <!-- VECTOR: Vector -->
+            <ImageView
+                android:id="@+id/vector"
+                android:src="@drawable/ic_vector"
+                android:scaleType="fitXY"
+        android:layout_width="20dp"
+        android:layout_height="19dp" />
+
+            <!-- FRAME: CalendarDots -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/calendardots"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+                android:background="#FFFFFFFF">
+
+                <!-- VECTOR: Vector -->
+                <ImageView
+                    android:id="@+id/vector"
+                    android:src="@drawable/ic_vector"
+                    android:scaleType="fitXY"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- FRAME: CalendarDots -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/calendardots"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+                android:background="#FFFFFFFF">
+
+                <!-- VECTOR: Vector -->
+                <ImageView
+                    android:id="@+id/vector"
+                    android:src="@drawable/ic_vector"
+                    android:scaleType="fitXY"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- FRAME: Frame 2 -->
+    <LinearLayout
+        android:id="@+id/frame_2"
+        android:orientation="horizontal"
+        android:layout_width="350dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="815dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- VECTOR: Vector -->
+        <ImageView
+            android:id="@+id/vector"
+            android:src="@drawable/ic_vector"
+            android:scaleType="fitXY"
+        android:layout_width="21dp"
+        android:layout_height="22dp" />
+
+        <!-- FRAME: CalendarDots -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/calendardots"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+            android:background="#FFFFFFFF">
+
+            <!-- VECTOR: Vector -->
+            <ImageView
+                android:id="@+id/vector"
+                android:src="@drawable/ic_vector"
+                android:scaleType="fitXY"
+        android:layout_width="21dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- VECTOR: Vector -->
+        <ImageView
+            android:id="@+id/vector"
+            android:src="@drawable/ic_vector"
+            android:scaleType="fitXY"
+        android:layout_width="19dp"
+        android:layout_height="19dp" />
+
+        <!-- VECTOR: Vector -->
+        <ImageView
+            android:id="@+id/vector"
+            android:src="@drawable/ic_vector"
+            android:scaleType="fitXY"
+        android:layout_width="25dp"
+        android:layout_height="18dp" />
+
+        <!-- VECTOR: Vector -->
+        <ImageView
+            android:id="@+id/vector"
+            android:src="@drawable/ic_vector"
+            android:scaleType="fitXY"
+        android:layout_width="20dp"
+        android:layout_height="19dp" />
+
+        <!-- FRAME: CalendarDots -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/calendardots"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+            android:background="#FFFFFFFF">
+
+            <!-- VECTOR: Vector -->
+            <ImageView
+                android:id="@+id/vector"
+                android:src="@drawable/ic_vector"
+                android:scaleType="fitXY"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: CalendarDots -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/calendardots"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+            android:background="#FFFFFFFF">
+
+            <!-- VECTOR: Vector -->
+            <ImageView
+                android:id="@+id/vector"
+                android:src="@drawable/ic_vector"
+                android:scaleType="fitXY"
+        android:layout_width="18dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
