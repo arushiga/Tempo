@@ -11,7 +11,21 @@ import SwiftUI
 struct TempoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                NavigationStack {
+                    HelloWorldView()
+                }
+                .tabItem {
+                    Label("Hello", systemImage: "hand.wave")
+                }
+
+                NavigationStack {
+                    HelloStylesView()
+                }
+                .tabItem {
+                    Label("Styles", systemImage: "paintpalette")
+                }
+            }
         }
     }
 }
