@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		402E607E2F7F564300750516 /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E607D2F7F564200750516 /* Untitled.swift */; };
+		402E60802F7F574500750516 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 402E607F2F7F574500750516 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		402E606D2F7F538B00750516 /* Tempo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tempo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		402E607D2F7F564200750516 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
+		402E607F2F7F574500750516 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +41,7 @@
 			children = (
 				402E606F2F7F538B00750516 /* Tempo */,
 				402E606E2F7F538B00750516 /* Products */,
+				402E607F2F7F574500750516 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -41,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				402E606D2F7F538B00750516 /* Tempo.app */,
+				402E607D2F7F564200750516 /* Untitled.swift */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +118,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402E60802F7F574500750516 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402E607E2F7F564300750516 /* Untitled.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
