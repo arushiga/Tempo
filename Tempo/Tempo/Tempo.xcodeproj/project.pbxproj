@@ -9,12 +9,101 @@
 /* Begin PBXBuildFile section */
 		402E607E2F7F564300750516 /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E607D2F7F564200750516 /* Untitled.swift */; };
 		402E60802F7F574500750516 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 402E607F2F7F574500750516 /* README.md */; };
+		402E610B2F7F8D1E00750516 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 402E61062F7F8D1E00750516 /* package.json */; };
+		402E610C2F7F8D1E00750516 /* index.css in Resources */ = {isa = PBXBuildFile; fileRef = 402E60FE2F7F8D1E00750516 /* index.css */; };
+		402E610D2F7F8D1E00750516 /* Guidelines.md in Resources */ = {isa = PBXBuildFile; fileRef = 402E60B12F7F8D1E00750516 /* Guidelines.md */; };
+		402E610E2F7F8D1E00750516 /* postcss.config.mjs in Resources */ = {isa = PBXBuildFile; fileRef = 402E61072F7F8D1E00750516 /* postcss.config.mjs */; };
+		402E610F2F7F8D1E00750516 /* SwiftUI-Conversion-Guide.md in Resources */ = {isa = PBXBuildFile; fileRef = 402E60B22F7F8D1E00750516 /* SwiftUI-Conversion-Guide.md */; };
+		402E61112F7F8D1E00750516 /* fonts.css in Resources */ = {isa = PBXBuildFile; fileRef = 402E60FD2F7F8D1E00750516 /* fonts.css */; };
+		402E61122F7F8D1E00750516 /* tailwind.css in Resources */ = {isa = PBXBuildFile; fileRef = 402E60FF2F7F8D1E00750516 /* tailwind.css */; };
+		402E61132F7F8D1E00750516 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 402E61052F7F8D1E00750516 /* index.html */; };
+		402E61142F7F8D1E00750516 /* ATTRIBUTIONS.md in Resources */ = {isa = PBXBuildFile; fileRef = 402E61042F7F8D1E00750516 /* ATTRIBUTIONS.md */; };
+		402E61152F7F8D1E00750516 /* theme.css in Resources */ = {isa = PBXBuildFile; fileRef = 402E61002F7F8D1E00750516 /* theme.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		402E606D2F7F538B00750516 /* Tempo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tempo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		402E607D2F7F564200750516 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
 		402E607F2F7F574500750516 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		402E60B12F7F8D1E00750516 /* Guidelines.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Guidelines.md; sourceTree = "<group>"; };
+		402E60B22F7F8D1E00750516 /* SwiftUI-Conversion-Guide.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "SwiftUI-Conversion-Guide.md"; sourceTree = "<group>"; };
+		402E60B42F7F8D1E00750516 /* ImageWithFallback.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = ImageWithFallback.tsx; sourceTree = "<group>"; };
+		402E60B62F7F8D1E00750516 /* accordion.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = accordion.tsx; sourceTree = "<group>"; };
+		402E60B72F7F8D1E00750516 /* alert.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = alert.tsx; sourceTree = "<group>"; };
+		402E60B82F7F8D1E00750516 /* alert-dialog.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = "alert-dialog.tsx"; sourceTree = "<group>"; };
+		402E60B92F7F8D1E00750516 /* aspect-ratio.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = "aspect-ratio.tsx"; sourceTree = "<group>"; };
+		402E60BA2F7F8D1E00750516 /* avatar.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = avatar.tsx; sourceTree = "<group>"; };
+		402E60BB2F7F8D1E00750516 /* badge.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = badge.tsx; sourceTree = "<group>"; };
+		402E60BC2F7F8D1E00750516 /* breadcrumb.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = breadcrumb.tsx; sourceTree = "<group>"; };
+		402E60BD2F7F8D1E00750516 /* button.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = button.tsx; sourceTree = "<group>"; };
+		402E60BE2F7F8D1E00750516 /* calendar.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = calendar.tsx; sourceTree = "<group>"; };
+		402E60BF2F7F8D1E00750516 /* card.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = card.tsx; sourceTree = "<group>"; };
+		402E60C02F7F8D1E00750516 /* carousel.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = carousel.tsx; sourceTree = "<group>"; };
+		402E60C12F7F8D1E00750516 /* chart.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = chart.tsx; sourceTree = "<group>"; };
+		402E60C22F7F8D1E00750516 /* checkbox.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = checkbox.tsx; sourceTree = "<group>"; };
+		402E60C32F7F8D1E00750516 /* collapsible.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = collapsible.tsx; sourceTree = "<group>"; };
+		402E60C42F7F8D1E00750516 /* command.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = command.tsx; sourceTree = "<group>"; };
+		402E60C52F7F8D1E00750516 /* context-menu.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = "context-menu.tsx"; sourceTree = "<group>"; };
+		402E60C62F7F8D1E00750516 /* dialog.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = dialog.tsx; sourceTree = "<group>"; };
+		402E60C72F7F8D1E00750516 /* drawer.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = drawer.tsx; sourceTree = "<group>"; };
+		402E60C82F7F8D1E00750516 /* dropdown-menu.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = "dropdown-menu.tsx"; sourceTree = "<group>"; };
+		402E60C92F7F8D1E00750516 /* form.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = form.tsx; sourceTree = "<group>"; };
+		402E60CA2F7F8D1E00750516 /* hover-card.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = "hover-card.tsx"; sourceTree = "<group>"; };
+		402E60CB2F7F8D1E00750516 /* input.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = input.tsx; sourceTree = "<group>"; };
+		402E60CC2F7F8D1E00750516 /* input-otp.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = "input-otp.tsx"; sourceTree = "<group>"; };
+		402E60CD2F7F8D1E00750516 /* label.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = label.tsx; sourceTree = "<group>"; };
+		402E60CE2F7F8D1E00750516 /* menubar.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = menubar.tsx; sourceTree = "<group>"; };
+		402E60CF2F7F8D1E00750516 /* navigation-menu.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = "navigation-menu.tsx"; sourceTree = "<group>"; };
+		402E60D02F7F8D1E00750516 /* pagination.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = pagination.tsx; sourceTree = "<group>"; };
+		402E60D12F7F8D1E00750516 /* popover.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = popover.tsx; sourceTree = "<group>"; };
+		402E60D22F7F8D1E00750516 /* progress.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = progress.tsx; sourceTree = "<group>"; };
+		402E60D32F7F8D1E00750516 /* radio-group.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = "radio-group.tsx"; sourceTree = "<group>"; };
+		402E60D42F7F8D1E00750516 /* resizable.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = resizable.tsx; sourceTree = "<group>"; };
+		402E60D52F7F8D1E00750516 /* scroll-area.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = "scroll-area.tsx"; sourceTree = "<group>"; };
+		402E60D62F7F8D1E00750516 /* select.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = select.tsx; sourceTree = "<group>"; };
+		402E60D72F7F8D1E00750516 /* separator.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = separator.tsx; sourceTree = "<group>"; };
+		402E60D82F7F8D1E00750516 /* sheet.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = sheet.tsx; sourceTree = "<group>"; };
+		402E60D92F7F8D1E00750516 /* sidebar.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = sidebar.tsx; sourceTree = "<group>"; };
+		402E60DA2F7F8D1E00750516 /* skeleton.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = skeleton.tsx; sourceTree = "<group>"; };
+		402E60DB2F7F8D1E00750516 /* slider.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = slider.tsx; sourceTree = "<group>"; };
+		402E60DC2F7F8D1E00750516 /* sonner.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = sonner.tsx; sourceTree = "<group>"; };
+		402E60DD2F7F8D1E00750516 /* switch.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = switch.tsx; sourceTree = "<group>"; };
+		402E60DE2F7F8D1E00750516 /* table.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = table.tsx; sourceTree = "<group>"; };
+		402E60DF2F7F8D1E00750516 /* tabs.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = tabs.tsx; sourceTree = "<group>"; };
+		402E60E02F7F8D1E00750516 /* textarea.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = textarea.tsx; sourceTree = "<group>"; };
+		402E60E12F7F8D1E00750516 /* toggle.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = toggle.tsx; sourceTree = "<group>"; };
+		402E60E22F7F8D1E00750516 /* toggle-group.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = "toggle-group.tsx"; sourceTree = "<group>"; };
+		402E60E32F7F8D1E00750516 /* tooltip.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = tooltip.tsx; sourceTree = "<group>"; };
+		402E60E42F7F8D1E00750516 /* use-mobile.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = "use-mobile.ts"; sourceTree = "<group>"; };
+		402E60E52F7F8D1E00750516 /* utils.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = utils.ts; sourceTree = "<group>"; };
+		402E60E72F7F8D1E00750516 /* CalendarCell.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = CalendarCell.tsx; sourceTree = "<group>"; };
+		402E60E82F7F8D1E00750516 /* DraggableRunType.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = DraggableRunType.tsx; sourceTree = "<group>"; };
+		402E60E92F7F8D1E00750516 /* GlassBackground.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = GlassBackground.tsx; sourceTree = "<group>"; };
+		402E60EA2F7F8D1E00750516 /* Layout.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = Layout.tsx; sourceTree = "<group>"; };
+		402E60EB2F7F8D1E00750516 /* Navigation.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = Navigation.tsx; sourceTree = "<group>"; };
+		402E60EC2F7F8D1E00750516 /* RunPlanner.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = RunPlanner.tsx; sourceTree = "<group>"; };
+		402E60EE2F7F8D1E00750516 /* Activity.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = Activity.tsx; sourceTree = "<group>"; };
+		402E60EF2F7F8D1E00750516 /* ActivityNew.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = ActivityNew.tsx; sourceTree = "<group>"; };
+		402E60F02F7F8D1E00750516 /* Calendar.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = Calendar.tsx; sourceTree = "<group>"; };
+		402E60F12F7F8D1E00750516 /* Home.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = Home.tsx; sourceTree = "<group>"; };
+		402E60F22F7F8D1E00750516 /* Login.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = Login.tsx; sourceTree = "<group>"; };
+		402E60F32F7F8D1E00750516 /* Profile.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = Profile.tsx; sourceTree = "<group>"; };
+		402E60F42F7F8D1E00750516 /* Record.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = Record.tsx; sourceTree = "<group>"; };
+		402E60F52F7F8D1E00750516 /* SignUp.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = SignUp.tsx; sourceTree = "<group>"; };
+		402E60F72F7F8D1E00750516 /* App.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = App.tsx; sourceTree = "<group>"; };
+		402E60F82F7F8D1E00750516 /* routes.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = routes.tsx; sourceTree = "<group>"; };
+		402E60FA2F7F8D1E00750516 /* RunPlannerFilledOut.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = RunPlannerFilledOut.tsx; sourceTree = "<group>"; };
+		402E60FB2F7F8D1E00750516 /* svg-sq11q5zcmr.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = "svg-sq11q5zcmr.ts"; sourceTree = "<group>"; };
+		402E60FD2F7F8D1E00750516 /* fonts.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = fonts.css; sourceTree = "<group>"; };
+		402E60FE2F7F8D1E00750516 /* index.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
+		402E60FF2F7F8D1E00750516 /* tailwind.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = tailwind.css; sourceTree = "<group>"; };
+		402E61002F7F8D1E00750516 /* theme.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = theme.css; sourceTree = "<group>"; };
+		402E61022F7F8D1E00750516 /* main.tsx */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = main.tsx; sourceTree = "<group>"; };
+		402E61042F7F8D1E00750516 /* ATTRIBUTIONS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ATTRIBUTIONS.md; sourceTree = "<group>"; };
+		402E61052F7F8D1E00750516 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		402E61062F7F8D1E00750516 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		402E61072F7F8D1E00750516 /* postcss.config.mjs */ = {isa = PBXFileReference; lastKnownFileType = text; path = postcss.config.mjs; sourceTree = "<group>"; };
+		402E61092F7F8D1E00750516 /* vite.config.ts */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.typescript; path = vite.config.ts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -42,6 +131,7 @@
 				402E606F2F7F538B00750516 /* Tempo */,
 				402E606E2F7F538B00750516 /* Products */,
 				402E607F2F7F574500750516 /* README.md */,
+				402E610A2F7F8D1E00750516 /* Figma Web Application Code */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,6 +142,164 @@
 				402E607D2F7F564200750516 /* Untitled.swift */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		402E60B32F7F8D1E00750516 /* guidelines */ = {
+			isa = PBXGroup;
+			children = (
+				402E60B12F7F8D1E00750516 /* Guidelines.md */,
+				402E60B22F7F8D1E00750516 /* SwiftUI-Conversion-Guide.md */,
+			);
+			path = guidelines;
+			sourceTree = "<group>";
+		};
+		402E60B52F7F8D1E00750516 /* figma */ = {
+			isa = PBXGroup;
+			children = (
+				402E60B42F7F8D1E00750516 /* ImageWithFallback.tsx */,
+			);
+			path = figma;
+			sourceTree = "<group>";
+		};
+		402E60E62F7F8D1E00750516 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				402E60B62F7F8D1E00750516 /* accordion.tsx */,
+				402E60B72F7F8D1E00750516 /* alert.tsx */,
+				402E60B82F7F8D1E00750516 /* alert-dialog.tsx */,
+				402E60B92F7F8D1E00750516 /* aspect-ratio.tsx */,
+				402E60BA2F7F8D1E00750516 /* avatar.tsx */,
+				402E60BB2F7F8D1E00750516 /* badge.tsx */,
+				402E60BC2F7F8D1E00750516 /* breadcrumb.tsx */,
+				402E60BD2F7F8D1E00750516 /* button.tsx */,
+				402E60BE2F7F8D1E00750516 /* calendar.tsx */,
+				402E60BF2F7F8D1E00750516 /* card.tsx */,
+				402E60C02F7F8D1E00750516 /* carousel.tsx */,
+				402E60C12F7F8D1E00750516 /* chart.tsx */,
+				402E60C22F7F8D1E00750516 /* checkbox.tsx */,
+				402E60C32F7F8D1E00750516 /* collapsible.tsx */,
+				402E60C42F7F8D1E00750516 /* command.tsx */,
+				402E60C52F7F8D1E00750516 /* context-menu.tsx */,
+				402E60C62F7F8D1E00750516 /* dialog.tsx */,
+				402E60C72F7F8D1E00750516 /* drawer.tsx */,
+				402E60C82F7F8D1E00750516 /* dropdown-menu.tsx */,
+				402E60C92F7F8D1E00750516 /* form.tsx */,
+				402E60CA2F7F8D1E00750516 /* hover-card.tsx */,
+				402E60CB2F7F8D1E00750516 /* input.tsx */,
+				402E60CC2F7F8D1E00750516 /* input-otp.tsx */,
+				402E60CD2F7F8D1E00750516 /* label.tsx */,
+				402E60CE2F7F8D1E00750516 /* menubar.tsx */,
+				402E60CF2F7F8D1E00750516 /* navigation-menu.tsx */,
+				402E60D02F7F8D1E00750516 /* pagination.tsx */,
+				402E60D12F7F8D1E00750516 /* popover.tsx */,
+				402E60D22F7F8D1E00750516 /* progress.tsx */,
+				402E60D32F7F8D1E00750516 /* radio-group.tsx */,
+				402E60D42F7F8D1E00750516 /* resizable.tsx */,
+				402E60D52F7F8D1E00750516 /* scroll-area.tsx */,
+				402E60D62F7F8D1E00750516 /* select.tsx */,
+				402E60D72F7F8D1E00750516 /* separator.tsx */,
+				402E60D82F7F8D1E00750516 /* sheet.tsx */,
+				402E60D92F7F8D1E00750516 /* sidebar.tsx */,
+				402E60DA2F7F8D1E00750516 /* skeleton.tsx */,
+				402E60DB2F7F8D1E00750516 /* slider.tsx */,
+				402E60DC2F7F8D1E00750516 /* sonner.tsx */,
+				402E60DD2F7F8D1E00750516 /* switch.tsx */,
+				402E60DE2F7F8D1E00750516 /* table.tsx */,
+				402E60DF2F7F8D1E00750516 /* tabs.tsx */,
+				402E60E02F7F8D1E00750516 /* textarea.tsx */,
+				402E60E12F7F8D1E00750516 /* toggle.tsx */,
+				402E60E22F7F8D1E00750516 /* toggle-group.tsx */,
+				402E60E32F7F8D1E00750516 /* tooltip.tsx */,
+				402E60E42F7F8D1E00750516 /* use-mobile.ts */,
+				402E60E52F7F8D1E00750516 /* utils.ts */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		402E60ED2F7F8D1E00750516 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				402E60B52F7F8D1E00750516 /* figma */,
+				402E60E62F7F8D1E00750516 /* ui */,
+				402E60E72F7F8D1E00750516 /* CalendarCell.tsx */,
+				402E60E82F7F8D1E00750516 /* DraggableRunType.tsx */,
+				402E60E92F7F8D1E00750516 /* GlassBackground.tsx */,
+				402E60EA2F7F8D1E00750516 /* Layout.tsx */,
+				402E60EB2F7F8D1E00750516 /* Navigation.tsx */,
+				402E60EC2F7F8D1E00750516 /* RunPlanner.tsx */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		402E60F62F7F8D1E00750516 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				402E60EE2F7F8D1E00750516 /* Activity.tsx */,
+				402E60EF2F7F8D1E00750516 /* ActivityNew.tsx */,
+				402E60F02F7F8D1E00750516 /* Calendar.tsx */,
+				402E60F12F7F8D1E00750516 /* Home.tsx */,
+				402E60F22F7F8D1E00750516 /* Login.tsx */,
+				402E60F32F7F8D1E00750516 /* Profile.tsx */,
+				402E60F42F7F8D1E00750516 /* Record.tsx */,
+				402E60F52F7F8D1E00750516 /* SignUp.tsx */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		402E60F92F7F8D1E00750516 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				402E60ED2F7F8D1E00750516 /* components */,
+				402E60F62F7F8D1E00750516 /* screens */,
+				402E60F72F7F8D1E00750516 /* App.tsx */,
+				402E60F82F7F8D1E00750516 /* routes.tsx */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		402E60FC2F7F8D1E00750516 /* imports */ = {
+			isa = PBXGroup;
+			children = (
+				402E60FA2F7F8D1E00750516 /* RunPlannerFilledOut.tsx */,
+				402E60FB2F7F8D1E00750516 /* svg-sq11q5zcmr.ts */,
+			);
+			path = imports;
+			sourceTree = "<group>";
+		};
+		402E61012F7F8D1E00750516 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				402E60FD2F7F8D1E00750516 /* fonts.css */,
+				402E60FE2F7F8D1E00750516 /* index.css */,
+				402E60FF2F7F8D1E00750516 /* tailwind.css */,
+				402E61002F7F8D1E00750516 /* theme.css */,
+			);
+			path = styles;
+			sourceTree = "<group>";
+		};
+		402E61032F7F8D1E00750516 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				402E60F92F7F8D1E00750516 /* app */,
+				402E60FC2F7F8D1E00750516 /* imports */,
+				402E61012F7F8D1E00750516 /* styles */,
+				402E61022F7F8D1E00750516 /* main.tsx */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		402E610A2F7F8D1E00750516 /* Figma Web Application Code */ = {
+			isa = PBXGroup;
+			children = (
+				402E60B32F7F8D1E00750516 /* guidelines */,
+				402E61032F7F8D1E00750516 /* src */,
+				402E61042F7F8D1E00750516 /* ATTRIBUTIONS.md */,
+				402E61052F7F8D1E00750516 /* index.html */,
+				402E61062F7F8D1E00750516 /* package.json */,
+				402E61072F7F8D1E00750516 /* postcss.config.mjs */,
+				402E61092F7F8D1E00750516 /* vite.config.ts */,
+			);
+			path = "Figma Web Application Code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +367,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				402E60802F7F574500750516 /* README.md in Resources */,
+				402E610B2F7F8D1E00750516 /* package.json in Resources */,
+				402E610C2F7F8D1E00750516 /* index.css in Resources */,
+				402E610D2F7F8D1E00750516 /* Guidelines.md in Resources */,
+				402E610E2F7F8D1E00750516 /* postcss.config.mjs in Resources */,
+				402E610F2F7F8D1E00750516 /* SwiftUI-Conversion-Guide.md in Resources */,
+				402E61112F7F8D1E00750516 /* fonts.css in Resources */,
+				402E61122F7F8D1E00750516 /* tailwind.css in Resources */,
+				402E61132F7F8D1E00750516 /* index.html in Resources */,
+				402E61142F7F8D1E00750516 /* ATTRIBUTIONS.md in Resources */,
+				402E61152F7F8D1E00750516 /* theme.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
